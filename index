@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Green Basket Grocery</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Green Basket</h1>
+    <input id="search" type="search" placeholder="Search groceries">
+  </header>
+  <main>
+    <section>
+      <nav id="categories" aria-label="Categories"></nav>
+      <div id="products" class="grid"></div>
+    </section>
+    <aside id="cart">
+      <h2>Your cart</h2>
+      <ul id="cart-items"></ul>
+      <p class="total">Total: <strong id="total">₹0.00</strong></p>
+      <input id="name" placeholder="Your name">
+      <input id="phone" placeholder="Phone (optional)">
+      <button id="checkout">Place order</button>
+      <p id="msg" role="status"></p>
+    </aside>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
